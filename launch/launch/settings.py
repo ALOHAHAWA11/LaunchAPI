@@ -96,7 +96,7 @@ WSGI_APPLICATION = 'launch.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'launchdb',
+        'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': '123',
         'HOST': 'localhost',
